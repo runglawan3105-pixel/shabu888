@@ -1,0 +1,3 @@
+// Firebase integration template. Create Firebase project, enable Firestore + Authentication, then replace these values.
+export const firebaseConfig={apiKey:"REPLACE_ME",authDomain:"REPLACE_ME.firebaseapp.com",projectId:"REPLACE_ME",storageBucket:"REPLACE_ME.firebasestorage.app",messagingSenderId:"REPLACE_ME",appId:"REPLACE_ME"};
+// Production reservation availability must use trusted transactional backend logic (e.g. Cloud Functions) to prevent double booking.
